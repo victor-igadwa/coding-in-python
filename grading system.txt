@@ -1,0 +1,18 @@
+#bogello
+unit1=int(input("enter marks for unit1 "))
+unit2=int(input("enter marks for unit2 "))
+unit3=int(input("enter marks for unit3 ")) 
+average=(unit1+unit2+unit3)/3
+print("Your average marks is-",average)
+if(average>=70 and average<=100):
+    print("Grade A")
+elif(average>=60 and average<=69):
+    print("Grade B")
+elif(average>=50 and average<=59):
+    print("Grade C")
+elif(average>=40 and average<=49):
+    print("Grade D")
+else:
+    print("You fail")
+    
+    

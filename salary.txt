@@ -1,0 +1,9 @@
+#bogZ
+salary=float(input("enter your salary-"))
+year=int(input("enter year worked-"))
+if(year>10):
+    print("Your bonus is-",0.1*salary)
+elif(year>=6 and year<=10):
+    print("Your bonus is-",0.08*salary)
+else:
+    print("your bonus is-",0.05*salary)

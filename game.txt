@@ -1,0 +1,9 @@
+#bogZ
+win=20
+num=int(input("guess a number"))
+if(num==win):
+    print("you won the game")
+elif(num<win):
+    print("too low")
+else:
+    print("too high")        
